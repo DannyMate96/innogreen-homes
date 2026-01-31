@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone } from "lucide-react";
+import Image from "next/image";
 
 export default function Header({
   onOpenForm,
@@ -36,19 +37,22 @@ export default function Header({
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        <a href="#" className="flex items-center gap-2.5">
-          <div className="flex h-8 w-8 items-center justify-center rounded bg-brand-black">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path
-                d="M3 21V9l9-7 9 7v12a1 1 0 01-1 1h-5v-7h-6v7H4a1 1 0 01-1-1z"
-                fill="white"
-              />
-            </svg>
-          </div>
-          <span className="font-heading text-lg font-bold tracking-tight text-brand-black">
-            Innogreen{" "}
-            <span className="font-normal text-brand-gray">Homes</span>
-          </span>
+        <a href="#" className="flex items-center gap-2">
+          <Image
+            src="/favicon.png"
+            alt="Innogreen Homes"
+            width={36}
+            height={36}
+            className="h-9 w-9"
+          />
+          <Image
+            src="/logo.png"
+            alt="Innogreen Homes"
+            width={160}
+            height={34}
+            className="h-8 w-auto"
+            priority
+          />
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">

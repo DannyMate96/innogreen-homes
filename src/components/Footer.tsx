@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -7,18 +8,21 @@ export default function Footer() {
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2.5">
-              <div className="flex h-8 w-8 items-center justify-center rounded bg-white">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-                  <path
-                    d="M3 21V9l9-7 9 7v12a1 1 0 01-1 1h-5v-7h-6v7H4a1 1 0 01-1-1z"
-                    fill="#000"
-                  />
-                </svg>
-              </div>
-              <span className="text-lg font-bold tracking-tight">
-                Innogreen <span className="font-normal text-white/50">Homes</span>
-              </span>
+            <div className="flex items-center gap-2">
+              <Image
+                src="/favicon.png"
+                alt="Innogreen Homes"
+                width={36}
+                height={36}
+                className="h-9 w-9"
+              />
+              <Image
+                src="/logo.png"
+                alt="Innogreen Homes"
+                width={160}
+                height={34}
+                className="h-8 w-auto brightness-0 invert"
+              />
             </div>
             <p className="mt-3 text-sm text-white/50">
               Premium property management in Perth
