@@ -6,7 +6,7 @@ import { Star } from "lucide-react";
 const testimonials = [
   {
     quote:
-      "As a first-time investor, I had no idea where to start. Innogreen Homes guided me through everything\u2014pricing, marketing, tenant screening. My property was rented within 2 weeks and I\u2019ve had zero issues. Couldn\u2019t have asked for a better experience.",
+      "As a first-time investor, I had no idea where to start. Innogreen Homes guided me through everything\u2014marketing, tenant screening, the whole process. My property was rented within 2 weeks and I\u2019ve had zero issues. Couldn\u2019t have asked for a better experience.",
     name: "James Patterson",
     details: "First-Time Investor, Applecross",
     tag: "New Property Owner",
@@ -20,7 +20,7 @@ const testimonials = [
   },
   {
     quote:
-      "I\u2019ve been with Innogreen Homes for 18 months now and my rental income is up 15%. They keep my property in great condition, handle everything proactively, and I get detailed reports every month. Professional service that actually delivers results.",
+      "I\u2019ve been with Innogreen Homes for 18 months now and my rental income has never been better. They keep my property in great condition, handle everything proactively, and I get detailed reports every month. Professional service that actually delivers results.",
     name: "Michael Thornton",
     details: "Property Investor, Subiaco",
     tag: "Long-Term Client",

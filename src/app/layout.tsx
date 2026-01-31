@@ -74,7 +74,7 @@ export default function RootLayout({
                 "@type": "City",
                 name: "Perth",
               },
-              priceRange: "8% + GST",
+              priceRange: "$$",
               aggregateRating: {
                 "@type": "AggregateRating",
                 ratingValue: "4.9",

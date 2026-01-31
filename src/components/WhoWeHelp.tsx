@@ -11,7 +11,7 @@ const cards = [
     text: "Congratulations! Now comes the important part\u2014finding the right tenants and setting up for success. We guide new property investors through every step, from market appraisal to placing quality tenants in your first 3 weeks.",
     benefits: [
       "First-time investor guidance",
-      "Strategic rental pricing",
+      "Strategic rental positioning",
       "Fast tenant placement (avg. 18 days)",
       "Complete setup assistance",
     ],

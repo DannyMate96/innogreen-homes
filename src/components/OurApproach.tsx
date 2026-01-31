@@ -29,7 +29,7 @@ const features = [
   {
     icon: TrendingUp,
     title: "Maximized Returns",
-    text: "Strategic rent reviews, expense optimization, and market analysis ensure you\u2019re getting top dollar. Our clients average 8\u201312% higher returns than self-managed properties.",
+    text: "Strategic rent reviews, expense optimization, and market analysis ensure you\u2019re getting top dollar. Our clients consistently achieve higher returns than self-managed properties.",
   },
   {
     icon: BadgeCheck,

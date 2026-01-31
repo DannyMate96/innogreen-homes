@@ -22,7 +22,7 @@ export default function Header({
   const navLinks = [
     { label: "Our Approach", href: "#our-approach" },
     { label: "How It Works", href: "#how-we-work" },
-    { label: "Pricing", href: "#pricing" },
+
     { label: "FAQs", href: "#faq" },
   ];
 

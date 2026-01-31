@@ -61,7 +61,7 @@ export default function Footer() {
               {[
                 { label: "Home", href: "#" },
                 { label: "Our Approach", href: "#our-approach" },
-                { label: "Pricing", href: "#pricing" },
+                { label: "Testimonials", href: "#social-proof" },
                 { label: "FAQs", href: "#faq" },
                 { label: "Contact", href: "#final-cta" },
               ].map((link) => (

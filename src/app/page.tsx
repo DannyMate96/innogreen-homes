@@ -10,7 +10,7 @@ import HowWeWork from "@/components/HowWeWork";
 import TrustBuilders from "@/components/TrustBuilders";
 import SocialProof from "@/components/SocialProof";
 import BrokerPartnership from "@/components/BrokerPartnership";
-import Pricing from "@/components/Pricing";
+
 import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
@@ -43,7 +43,7 @@ export default function Home() {
         <TrustBuilders />
         <SocialProof />
         <BrokerPartnership onOpenForm={openForm} />
-        <Pricing onOpenForm={() => openForm()} />
+
         <FAQ />
         <FinalCTA onOpenForm={() => openForm()} />
       </main>
